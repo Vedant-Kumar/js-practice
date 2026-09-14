@@ -131,4 +131,36 @@
 // console.log(userOne);
 // console.log(userTwo);
 
+// const name = "Vedant Kumar";
+// const repoCount = 50;
+// console.log(`Hello, my name is ${name} and I have ${repoCount} repositories.`);
 
+// Two different ways to decalre a string :
+// let gameName = new String("Zelda");
+// let gameName2 = "Zelda";
+// console.log(gameName === gameName2);
+
+// console.log(gameName.length);
+// console.log(gameName.toUpperCase()); 
+// console.log(gameName.charAt(0));
+// console.log(gameName.indexOf("Z"));
+// console.log(gameName.lastIndexOf("a"));
+// console.log(gameName.includes("Zelda"));
+// console.log(gameName.startsWith("Zel"));
+// console.log(gameName.endsWith("da"));
+
+// const newString = gameName.substring(0,4);
+// console.log(newString);
+// const anotherString = gameName.slice(0,4);
+// console.log(anotherString);
+
+// const newStringOne = "    Vedant Kumar   ";
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
+
+// const url = "https://vedantkumar.com/vedant%20Kumar";
+// console.log(url.replace("%20", "-"));
+// console.log(url.includes("vedant"));
+
+// let gameName = new String("Call-Of-Duty");
+// console.log(gameName.split("-"));
