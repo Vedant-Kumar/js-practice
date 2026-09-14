@@ -222,3 +222,86 @@
 // let newDate = new Date();
 // console.log(newDate.getDate());
 // console.log(newDate.toLocaleDateString("en-IN", { weekday: "long", year: "numeric", month: "long", day: "numeric" }));
+
+// Arrays :
+// let myArr = [0,1,2,3,4,5];
+// const myHeroes = new Array("IronMan", "Thor", "Hulk", "Batman");
+// console.log(myArr[0]);
+// myArr.push(6);
+// myArr.push(7);
+// console.log(myArr);
+// myArr.pop();
+// console.log(myArr);
+// myArr.unshift(9);
+// console.log(myArr);
+// myArr.shift();
+// console.log(myArr.includes(9));
+// console.log(myArr);
+// console.log(myArr.indexOf(8));
+// let newArr = myArr.join();
+// console.log(typeof myArr);
+// console.log(typeof newArr);
+
+// slice, splice
+// console.log(`A ${myArr}`);
+// console.log(`B ${myArr.slice(1,4)}`);
+// console.log(`C ${myArr}`);
+// console.log(`D ${myArr.splice(1,4)}`);
+// console.log(`E ${myArr}`);
+
+// const marvelHeroes = ["IronMan", "Thor", "Hulk", "Captain America"];
+// const dcHeroes = ["Superman", "Flash", "Batman", "Cyborg"];
+
+// marvelHeroes.push(dcHeroes);
+// console.log(marvelHeroes); 
+// console.log(marvelHeroes[4][1]);
+
+// const Heroes = marvelHeroes.concat(dcHeroes);
+// console.log(Heroes);
+
+// const allHeroes = [...marvelHeroes, ...dcHeroes];
+// console.log(allHeroes);
+
+// let anotherArr = [1,2,3,[4,5,6],7,[6,7], [4,5]];
+// let usableAnotherArr = anotherArr.flat(2);
+// console.log(usableAnotherArr);
+
+// console.log(Array.isArray("Vedant Kumar"));
+// console.log(Array.from("12345"));
+// console.log(Array.from({name: "Vedant"}));
+
+// let score1 = 100;
+// let score2 = 200;
+// let score3 = 300;
+// console.log(Array.of(score1, score2, score3));
+
+// Objects :
+const mySymbol = Symbol("key1");
+
+const JSUSer ={
+    name : "Vedant Kumar",
+    age : 27,
+    [mySymbol] : "mykey1",
+    "full name" : "Vedant Kumar",
+    location : "Mumbai",
+    email : "vedant@google.com",
+    isloggedin : false, 
+    lastLoginDays : ["Monday", "Friday"],   
+};
+
+// console.log(JSUSer["email"]);
+// console.log(JSUSer.email);
+// console.log(JSUSer["full name"]);
+// console.log(JSUSer[mySymbol]);
+
+// JSUSer.email = "vedant@apple.com";
+// Object.freeze(JSUSer);
+// JSUSer.email = "vedant@microsoft.com";
+// console.log(JSUSer);
+
+JSUSer.greeting = function() {
+    console.log("Hello JS User");
+}
+
+console.log(JSUSer.greeting);
+console.log(JSUSer.greeting());
