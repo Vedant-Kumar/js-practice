@@ -191,3 +191,34 @@
 // console. log (Math.floor(Math. random() * (max - min + 1)) + min)
 // console. log (Math. floor(Math. random()*10)+1);
 
+// let myDate = new Date();
+// console.log(myDate);
+// console.log(myDate.toString());
+// console.log(myDate.toDateString());
+// console.log(myDate.toTimeString());
+// console.log(myDate.toISOString());
+// console.log(myDate.getFullYear());
+// console.log(myDate.getMonth());
+// console.log(myDate.getDate());
+// console.log(myDate.getDay());
+// console.log(myDate.getHours());
+// console.log(myDate.getMinutes());
+// console.log(myDate.getSeconds());  
+// console.log(myDate.getMilliseconds());
+// console.log(myDate.getTime());
+// console.log(myDate.toLocaleDateString());
+// console.log(typeof myDate);
+// let myCreatedDate = new Date(2023, 3, 25);
+// console.log(myCreatedDate);
+// console.log(myCreatedDate.toLocaleDateString());
+// console.log(myCreatedDate.toLocaleTimeString());
+
+// let myTimeStamp = Date.now();
+// console.log(myTimeStamp);
+// let myDate = new Date(myTimeStamp);
+// console.log(myDate.getTime());
+// console.log(Math.floor(myDate.getTime() / 1000));
+
+// let newDate = new Date();
+// console.log(newDate.getDate());
+// console.log(newDate.toLocaleDateString("en-IN", { weekday: "long", year: "numeric", month: "long", day: "numeric" }));
